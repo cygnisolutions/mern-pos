@@ -14,7 +14,7 @@ const app = express();
 const port = 5000;
 
 // const store = new MongoDBStore({
-//     uri: 'mongodb+srv://root:VWSRxg0zTYfuGpMX@cluster0.yj0pxwd.mongodb.net/pos',
+//     uri: 'MONGO_URL',
 //     collection: 'sessions'
 // });
 
