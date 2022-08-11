@@ -1,0 +1,91 @@
+.item{
+    box-shadow: 0 0 3px rgb(110, 110, 110);
+    padding: 15px;
+    margin-top: 20px;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.item .name{
+    color: tomato;
+    font-size: 20px;
+}
+.item .price{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6999);
+    font-size: 20px;
+}
+.item button{
+    margin-top: 10px;
+   background-color: #029c02 !important;
+   color: white !important;
+}
+input{
+    border: 1px solid rgb(0,39,31) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.ant-select-selector{
+    border: 1px solid rgb(0,39,31) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.category{
+    border: 2px solid rgb(179, 176, 176);
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.category h4{
+    margin-right: 25px;
+    font-size: 22px;
+}
+.category img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: -3px !important;
+}
+.selected-category{
+    border: 3px solid #047979;
+}
+
+.subtotal h3{
+    color: #047979;
+    font-size: 35px;
+    padding: 15px;
+}
+
+/* ---------------------------- Bill Styling */
+.bill-header{
+    border-bottom: 2px dotted rgb(77, 76, 76);
+}
+.bill-model h1{
+    font-size: 30px;
+}
+.bill-model p{ 
+    margin-bottom: 0; 
+}
+.dotted-border{
+    margin: 5px 0;
+    border-bottom: 2px dotted rgb(77, 76, 76);
+}
+.bill-model h2{
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width:600px){
+    .categories{
+        overflow-x: scroll;
+        width: 100%;
+    }
+}
